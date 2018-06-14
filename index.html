@@ -2,92 +2,136 @@
 <html>
   <!-- Head -->
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Brice Boulesteix | Profile page</title>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <!-- Body -->
   <body>
-    <div class="container">
-      <!-- Profile section -->
-      <div class="card">
-        <!-- Profile picture -->
-        <img class="portrait img-circle" src="images/brice-boulesteix-portrait-redux.jpg" />
-        <header>
-          <!-- Header with name and job title -->
-          <h1>Brice Boulesteix, Web Editor</h1>
-          <!-- Description -->
-          <h2>Profile</h2>
-          <p>I work at the intersection of product and communication. I live in Paris, France.</p>
-        </header>
-      </div>
-      <!-- List of social links -->
-      <div class="card">
-        <h2>Social</h2>
-        <ul>
-          <li><a href="https://twitter.com/briceboulesteix">Twitter</a></li>
-          <li><a href="https://www.instagram.com/bboulesteix/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/briceboulesteix/">Linkedin</a></li>
-        </ul>
-      </div>
-      <!-- Table showing books -->
-      <div class="card">
-        <h2>Library</h2>
-        <p>Here's a short list of my favourite books.</p>
-        <!-- List of books -->
-        <div class="library_content">
-          <div class="library_book">
-            <a href="http://amzn.eu/8UAqHko">
-              <img class="img-border" src="images/livres/voyage-au-bout-de-la-nuit.jpg" />
-              <h3>Voyage au bout de la nuit</h3>
-              <em>Louis-Ferdinand Céline</em>
-            </a>
-          </div>
-          <div class="library_book">
-            <a href="http://amzn.eu/78Ls2zI">
-              <img class="img-border" src="images/livres/mempoires-dhadrien.jpg" />
-              <h3>Mémoires d’Hadrien</h3>
-              <em>Marguerite Yourcenar</em>
-            </a>
-          </div>
-          <div class="library_book">
-            <a href="http://amzn.eu/dPOuhsR">
-              <img class="img-border" src="images/livres/2084.jpg" />
-              <h3>2084</h3>
-              <em>Boualem Sansal</em>
-            </a>
-          </div>
-          <div class="library_book">
-            <a href="http://amzn.eu/hpkrt0o">
-              <img class="img-border" src="images/livres/du-cote-de-chez-swann.jpg" />
-              <h3>Du côté de chez Swann</h3>
-              <em>Marcel Proust</em>
-            </a>
-          </div>
-          <div class="library_book">
-            <a href="http://amzn.eu/0Vnud2j">
-              <img class="img-border" src="images/livres/la-carte-et-le-territoire.jpg" />
-              <h3>La carte et le territoire</h3>
-              <em>Michel Houellebecq</em>
-            </a>
-          </div>
-          <div class="library_book">
-            <a href="http://amzn.eu/9Nuddu4">
-              <img class="img-border" src="images/livres/essays.png" />
-              <h3>Essays</h3>
-              <em>George Orwell</em>
-            </a>
-          </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+
+          <!-- Profile section -->
+          <section class="mt-5">
+            <!-- Profile picture -->
+            <img class="portrait img-circle" src="images/brice-boulesteix-portrait-redux.jpg" />
+
+            <header>
+              <!-- Header with name and job title -->
+              <h1>Brice Boulesteix, Web Editor</h1>
+
+              <!-- Description -->
+              <div class="mt-5">
+                <h2>Profile</h2>
+                <p>I work at the intersection of product and communication. I live in Paris, France.</p>
+              </div>
+            </header>
+          </section>
+
+          <!-- List of social links -->
+          <section class="mt-5">
+            <h2>Social</h2>
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/briceboulesteix">Twitter</a></li>
+              <li><a href="https://www.instagram.com/bboulesteix/">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/briceboulesteix/">Linkedin</a></li>
+            </ul>
+          </section>
+
+          <!-- Table showing books -->
+          <section class="mt-5">
+            <h2>Library</h2>
+            <p>Here's a short list of my favourite books.</p>
+
+            <!-- List of books -->
+            <div class="row">
+
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/8UAqHko">
+                    <img class="img-border" src="images/livres/voyage-au-bout-de-la-nuit.jpg" />
+                    <div class="book-description">
+                      <h3>Voyage au bout de la nuit</h3>
+                      <em>Louis-Ferdinand Céline</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/78Ls2zI">
+                    <img class="img-border" src="images/livres/memoires-dhadrien.jpg" />
+                    <div class="book-description">
+                      <h3>Mémoires d’Hadrien</h3>
+                      <em>Marguerite Yourcenar</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/dPOuhsR">
+                    <img class="img-border" src="images/livres/2084.jpg" />
+                    <div class="book-description">
+                      <h3>2084</h3>
+                      <em>Boualem Sansal</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/hpkrt0o">
+                    <img class="img-border" src="images/livres/du-cote-de-chez-swann.jpg" />
+                    <div class="book-description">
+                      <h3>Du côté de chez Swann</h3>
+                      <em>Marcel Proust</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/0Vnud2j">
+                    <img class="img-border" src="images/livres/la-carte-et-le-territoire.jpg" />
+                    <div class="book-description">
+                      <h3>La carte et le territoire</h3>
+                      <em>Michel Houellebecq</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="library-book">
+                  <a href="http://amzn.eu/9Nuddu4">
+                    <img class="img-border" src="images/livres/essays.png">
+                    <div class="book-description">
+                      <h3>Essays</h3>
+                      <em>George Orwell</em>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </setction>
+
+          <!-- Footer -->
+          <footer>
+            <hr>
+            <p>Thanks for reading. Enjoy the rest of your day.</p>
+          <footer>
+
         </div>
-      </div>
-      <!-- Footer -->
-      <div class="card">
-        <footer>
-          <hr>
-          <p>Thanks for reading. Enjoy the rest of your day.</p>
-        <footer>
       </div>
     </div>
   </body>
